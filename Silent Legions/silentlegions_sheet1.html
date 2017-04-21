@@ -65,8 +65,9 @@
     <fieldset class="repeating_wealth">
     <strong>Name</strong><input type="text" name="attr_">
         <strong>Type</strong><select>
+        <option value="penniless">Penniless</option>
             <option value="struggling">Struggling</option>
-            <option value="average">Average</option>
+            <option value="average" selected>Average</option>
             <option value="affluent">Affluent</option>
             <option value="rich">Rich</option>
             <option value="plutocratic">Plutocratic</option>
@@ -95,7 +96,7 @@
         <select name="attr_artAttribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -109,7 +110,7 @@
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
         <option value="@{wisdom_mod}">WIS</option>
-        <option value="@{dexterity_mod}">DEX</option>
+        <option value="@{dexterity_mod}" selected>DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
         </select></td>
@@ -121,7 +122,7 @@
         <select name="attr_businessAttribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -132,7 +133,7 @@
         </tr>
                 <tr><td>Combat <input type="text" name="attr_combat1Name" /></td><td>
         <select name="attr_combat1Attribute">
-        <option value="@{strength_mod}">STR</option>
+        <option value="@{strength_mod}" selected>STR</option>
         <option value="@{intelligence_mod}">INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
@@ -148,7 +149,7 @@
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
         <option value="@{wisdom_mod}">WIS</option>
-        <option value="@{dexterity_mod}">DEX</option>
+        <option value="@{dexterity_mod}" selected>DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
         </select></td>
@@ -160,7 +161,7 @@
         <tr><td>Computer</td><td>
         <select name="attr_computerAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -175,7 +176,7 @@
         <select name="attr_culture1Attribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -188,7 +189,7 @@
         <select name="attr_culture2Attribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -200,7 +201,7 @@
                 <tr><td>Engineering</td><td>
         <select name="attr_engineeringAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -213,7 +214,7 @@
                 <tr><td>Gambling</td><td>
         <select name="attr_gamblingAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -226,7 +227,7 @@
                 <tr><td>History</td><td>
         <select name="attr_historyAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -239,7 +240,7 @@
                 <tr><td>Language</td><td>
         <select name="attr_languageAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -252,7 +253,7 @@
                 <tr><td>Law</td><td>
         <select name="attr_lawAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -269,7 +270,7 @@
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
-        <option value="@{charisma_mod}">CHA</option>
+        <option value="@{charisma_mod}" selected>CHA</option>
         </select></td>
         <td><input type="number" value=”-1” name="attr_leadershipLevel"/></td><td><input type="checkbox" name="attr_leadershipClass" value=1></td>
         <td><input type="text" disabled="true" name="attr_leadershipModifier" value="[[@{leadershipAttribute} + @{leadershipLevel}]]"></td>
@@ -278,7 +279,7 @@
                 <tr><td>Medicine</td><td>
         <select name="attr_medicineAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -292,7 +293,7 @@
         <select name="attr_navigationAttribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -304,7 +305,7 @@
         <tr><td>Occult</td><td>
         <select name="attr_occultAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -318,7 +319,7 @@
         <select name="attr_perceptionAttribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -334,7 +335,7 @@
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
-        <option value="@{charisma_mod}">CHA</option>
+        <option value="@{charisma_mod}" selected>CHA</option>
         </select></td>
         <td><input type="number" value=”-1” name="attr_persuadeLevel"/></td><td><input type="checkbox" name="attr_persuadeClass" value=1></td>
         <td><input type="text" disabled="true" name="attr_persuadeModifier" value="[[@{persuadeAttribute} + @{persuadeLevel}]]"></td>
@@ -344,7 +345,7 @@
         <select name="attr_professionAttribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -356,7 +357,7 @@
                 <tr><td>Research</td><td>
         <select name="attr_researchAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -382,7 +383,7 @@
         <tr><td>Science</td><td>
         <select name="attr_scienceAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -395,7 +396,7 @@
                 <tr><td>Security</td><td>
         <select name="attr_securityAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -410,7 +411,7 @@
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
         <option value="@{wisdom_mod}">WIS</option>
-        <option value="@{dexterity_mod}">DEX</option>
+        <option value="@{dexterity_mod}" selected>DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
         </select></td>
@@ -422,7 +423,7 @@
         <select name="attr_survivalAttribute">
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
-        <option value="@{wisdom_mod}">WIS</option>
+        <option value="@{wisdom_mod}" selected>WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
@@ -434,7 +435,7 @@
                 <tr><td>Tactics</td><td>
         <select name="attr_tacticsAttribute">
         <option value="@{strength_mod}">STR</option>
-        <option value="@{intelligence_mod}">INT</option>
+        <option value="@{intelligence_mod}" selected>INT</option>
         <option value="@{wisdom_mod}">WIS</option>
         <option value="@{dexterity_mod}">DEX</option>
         <option value="@{constitution_mod}">CON</option>
@@ -449,7 +450,7 @@
         <option value="@{strength_mod}">STR</option>
         <option value="@{intelligence_mod}">INT</option>
         <option value="@{wisdom_mod}">WIS</option>
-        <option value="@{dexterity_mod}">DEX</option>
+        <option value="@{dexterity_mod}" selected>DEX</option>
         <option value="@{constitution_mod}">CON</option>
         <option value="@{charisma_mod}">CHA</option>
         </select></td>
